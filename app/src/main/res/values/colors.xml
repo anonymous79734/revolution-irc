@@ -118,4 +118,41 @@
         <item>@color/messageTimestamp</item>
     </integer-array>
 
+    <color name="soberDarkBackground">#111315</color>
+    <color name="soberDarkSurface">#181B1F</color>
+    <color name="soberDarkPrimary">#20242A</color>
+    <color name="soberDarkPrimaryDark">#0C0E10</color>
+    <color name="soberDarkAccent">#8C9AA5</color>
+    <color name="soberDarkTextPrimary">#E1E4E7</color>
+    <color name="soberDarkTextSecondary">#9AA1A8</color>
+    <color name="soberDarkDivider">#2A2F35</color>
+    <color name="soberDarkIrcWhite">#D9DEE2</color>
+    <color name="soberDarkIrcBlack">#6F767D</color>
+    <color name="soberDarkIrcBlue">#6F9DB8</color>
+    <color name="soberDarkIrcGreen">#789B78</color>
+    <color name="soberDarkIrcLightRed">#C47777</color>
+    <color name="soberDarkIrcBrown">#A88772</color>
+    <color name="soberDarkIrcPurple">#9B86AD</color>
+    <color name="soberDarkIrcOrange">#B7956F</color>
+    <color name="soberDarkIrcYellow">#B5A56A</color>
+    <color name="soberDarkIrcLightGreen">#8DA77A</color>
+    <color name="soberDarkIrcCyan">#6FA5A5</color>
+    <color name="soberDarkIrcLightCyan">#7FB9B9</color>
+    <color name="soberDarkIrcLightBlue">#7CA8C0</color>
+    <color name="soberDarkIrcPink">#B07F9A</color>
+    <color name="soberDarkIrcGray">#8A9198</color>
+    <color name="soberDarkIrcLightGray">#B9BEC3</color>
+    <color name="soberDarkTimestamp">#777F87</color>
+    <color name="soberDarkStatusText">#969EA6</color>
+    <color name="soberDarkDisconnected">#C47777</color>
+    <color name="soberDarkTopic">#D9DEE2</color>
+    <color name="soberDarkMemberNormal">#D9DEE2</color>
+    <color name="soberDarkMemberOwner">#B5A56A</color>
+    <color name="soberDarkMemberAdmin">#9EA071</color>
+    <color name="soberDarkMemberOp">#8DA77A</color>
+    <color name="soberDarkMemberHalfOp">#6FA5A0</color>
+    <color name="soberDarkMemberVoice">#7CA8C0</color>
+    <color name="soberDarkMotd">#7CA8C0</color>
+    <color name="soberDarkExtra1">#B07F72</color>
+    <color name="soberDarkExtra2">#788EAB</color>
 </resources>
