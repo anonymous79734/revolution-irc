@@ -68,6 +68,9 @@ public class ThemeManager {
         addBaseTheme(new BaseTheme("default_dark", R.string.theme_default_dark,
                 R.style.AppTheme, R.style.AppTheme_NoActionBar, R.style.AppTheme_IRCColors,
                 true));
+        addBaseTheme(new BaseTheme("sober_dark", R.string.theme_sober_dark,
+                R.style.AppTheme_SoberDark, R.style.AppTheme_SoberDark_NoActionBar,
+                R.style.AppTheme_SoberDark_IRCColors, true));
         reloadThemes();
 
         SettingsHelper.changeEvent().listen(AppSettings.PREF_THEME, this::onThemeSettingChanged);
