@@ -214,4 +214,58 @@
         <item name="android:windowMinWidthMajor">16dp</item>
     </style>
 
+    <style name="AppTheme.SoberDark" parent="AppTheme">
+        <item name="colorPrimary">@color/soberDarkPrimary</item>
+        <item name="colorPrimaryDark">@color/soberDarkPrimaryDark</item>
+        <item name="colorAccent">@color/soberDarkAccent</item>
+        <item name="android:colorAccent">@color/soberDarkAccent</item>
+        <item name="colorBackground">@color/soberDarkBackground</item>
+        <item name="colorSurface">@color/soberDarkSurface</item>
+        <item name="android:colorBackground">@color/soberDarkBackground</item>
+        <item name="android:windowBackground">@color/soberDarkBackground</item>
+        <item name="android:navigationBarColor">@color/soberDarkBackground</item>
+        <item name="android:statusBarColor">@color/soberDarkPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/soberDarkTextPrimary</item>
+        <item name="android:textColorSecondary">@color/soberDarkTextSecondary</item>
+        <item name="colorControlNormal">@color/soberDarkTextSecondary</item>
+        <item name="colorControlActivated">@color/soberDarkAccent</item>
+        <item name="colorControlHighlight">@color/soberDarkDivider</item>
+        <item name="actionBarTheme">@style/AppTheme.AppBarOverlay</item>
+        <item name="ircColors">@style/AppTheme.SoberDark.IRCColors</item>
+    </style>
+    <style name="AppTheme.SoberDark.NoActionBar" parent="AppTheme.SoberDark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme.SoberDark.IRCColors">
+        <item name="colorBlack">@color/soberDarkIrcBlack</item>
+        <item name="colorWhite">@color/soberDarkIrcWhite</item>
+        <item name="colorBlue">@color/soberDarkIrcBlue</item>
+        <item name="colorGreen">@color/soberDarkIrcGreen</item>
+        <item name="colorLightRed">@color/soberDarkIrcLightRed</item>
+        <item name="colorBrown">@color/soberDarkIrcBrown</item>
+        <item name="colorPurple">@color/soberDarkIrcPurple</item>
+        <item name="colorOrange">@color/soberDarkIrcOrange</item>
+        <item name="colorYellow">@color/soberDarkIrcYellow</item>
+        <item name="colorLightGreen">@color/soberDarkIrcLightGreen</item>
+        <item name="colorCyan">@color/soberDarkIrcCyan</item>
+        <item name="colorLightCyan">@color/soberDarkIrcLightCyan</item>
+        <item name="colorLightBlue">@color/soberDarkIrcLightBlue</item>
+        <item name="colorPink">@color/soberDarkIrcPink</item>
+        <item name="colorGray">@color/soberDarkIrcGray</item>
+        <item name="colorLightGray">@color/soberDarkIrcLightGray</item>
+        <item name="colorTimestamp">@color/soberDarkTimestamp</item>
+        <item name="colorStatusText">@color/soberDarkStatusText</item>
+        <item name="colorDisconnected">@color/soberDarkDisconnected</item>
+        <item name="colorSenderFallbackColor">?attr/colorBlue</item>
+        <item name="colorTopic">@color/soberDarkTopic</item>
+        <item name="colorMemberOwner">@color/soberDarkMemberOwner</item>
+        <item name="colorMemberAdmin">@color/soberDarkMemberAdmin</item>
+        <item name="colorMemberOp">@color/soberDarkMemberOp</item>
+        <item name="colorMemberHalfOp">@color/soberDarkMemberHalfOp</item>
+        <item name="colorMemberVoice">@color/soberDarkMemberVoice</item>
+        <item name="colorMemberNormal">@color/soberDarkMemberNormal</item>
+    </style>
 </resources>
